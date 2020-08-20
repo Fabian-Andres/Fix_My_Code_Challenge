@@ -15,7 +15,7 @@ def fizzbuzz(n):
         return
 
     tmp_result = []
-    for i in range(1, n):
+    for i in range(1, n + 1):
         if (i % 3) == 0:
             if (i % 5) == 0:
                 tmp_result.append("FizzBuzz")
